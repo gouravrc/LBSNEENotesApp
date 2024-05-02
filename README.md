@@ -4,6 +4,13 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
+## Prerequisites
+To start the application you need the following 
+1. Android Studio
+2. Xcode
+3. Homebrew for Mac OS
+4. NPM install. Click here for details https://docs.npmjs.com/cli/v6/commands/npm-install
+
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
