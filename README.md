@@ -56,8 +56,10 @@ Now that you have successfully run the app, let's modify it.
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
    
 ## Preview
-iOS and Android
-![garvax](https://i.ibb.co/4jDwK79/ios.gif) ![garvax](https://i.ibb.co/jLyKGjq/andorid.gif) 
+For iOS
+![garvax](https://i.ibb.co/4jDwK79/ios.gif) 
+For Android
+![garvax](https://i.ibb.co/jLyKGjq/andorid.gif) 
 
 
 To learn more about React Native, take a look at the following resources:
