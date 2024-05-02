@@ -7,6 +7,7 @@ interface INotesCardProps{
   onDelete:any
   onLongPress:any
   onPressOut:any
+  desc:any
 }
 
 const NotesCard = (props: INotesCardProps) => {

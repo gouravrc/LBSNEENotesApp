@@ -66,9 +66,11 @@ function MainView(props: any): React.JSX.Element {
     return props.notesProps.notes.map((item: any, index: any) => (
       <NotesCard
         title={item.title}
+        desc={item.desc}
         id={item.id}
         onDelete={() => onDeleteNotes(item.id)}
         onLongPress={(e:any)=>{
+          console.log("========",e)
           setModalPreview(true)
           setModalPreviewTitle(e.title)
           setModalPreviewDesc(e.desc)

@@ -24,13 +24,7 @@ interface IAddNotesModalProps {
 }
 
 const ModalPreview = (props: IAddNotesModalProps) => {
-  const [title, setTitle] = useState<string>();
-  const [desc, setDesc] = useState<string>();
-
-  function resetState() {
-    setTitle(undefined);
-    setDesc(undefined);
-  }
+    console.log(props)
 
   return (
     <View style={styles.centeredView}>
@@ -51,7 +45,6 @@ const ModalPreview = (props: IAddNotesModalProps) => {
                   value={props.title}
                   placeholder="Notes Title"
                   placeholderTextColor={'darkgrey'}
-                  onChangeText={e => setTitle(e)}
                   style={styles.modal_title_input}
                   maxLength={20}
                   editable={false}
@@ -62,7 +55,6 @@ const ModalPreview = (props: IAddNotesModalProps) => {
                   value={props.desc}
                   placeholder="Notes Description"
                   placeholderTextColor={'darkgrey'}
-                  onChangeText={e => setDesc(e)}
                   style={styles.modal_title_input}
                   maxLength={100}
                   multiline
