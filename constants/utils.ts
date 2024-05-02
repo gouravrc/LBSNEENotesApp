@@ -1,0 +1,9 @@
+export const IOS_COLOR_CODE="#007aff"
+export const IOS_COLOR_CODE_RED="#ff3b30"
+export const DARK_MODE_SHADE = "#2A2C2F"
+
+export const SET_NOTES_DATA = "SET_NOTES_DATA"
+export const UPDATE_NOTES_DATA = "UPDATE_NOTES_DATA"
+
+export const DELETE_NOTES_DATA = "DELETE_NOTES_DATA"
+export const DELETE_NOTES_DATA_UPDATE = "DELETE_NOTES_DATA_UPDATE"
