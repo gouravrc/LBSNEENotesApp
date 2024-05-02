@@ -70,7 +70,6 @@ function MainView(props: any): React.JSX.Element {
         id={item.id}
         onDelete={() => onDeleteNotes(item.id)}
         onLongPress={(e:any)=>{
-          console.log("========",e)
           setModalPreview(true)
           setModalPreviewTitle(e.title)
           setModalPreviewDesc(e.desc)
@@ -98,7 +97,6 @@ function MainView(props: any): React.JSX.Element {
           <TouchableOpacity
             onPress={() => {
               setAddNotesModal(true);
-              console.log('trueeee');
             }}>
             <Text style={styles.header_text_minor}>Add Notes</Text>
           </TouchableOpacity>
