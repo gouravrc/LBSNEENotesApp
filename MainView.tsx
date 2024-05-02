@@ -33,7 +33,7 @@ function MainView(props: any): React.JSX.Element {
 
   const backgroundStyle = {};
   /**
-   * useMemo hooks use below for rendering Notes Car
+   * useMemo hooks use below for rendering Notes Card componenr
    * Prevent unnecessary rendering
    */
   const renderNotesOptimized = useMemo(
@@ -42,7 +42,7 @@ function MainView(props: any): React.JSX.Element {
   );
   /**
    * useCallback hooks use to set Notesprops from Reducer
-   * Prevent unnecessary duplicate setting of reducer values 
+   * Prevent unnecessary duplicate calls to set reducer values 
    */
   const notesPropsCallbackOptimized = useCallback(
     () => setNotesProps(notesArr),
